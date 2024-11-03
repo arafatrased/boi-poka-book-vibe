@@ -5,7 +5,7 @@ const NavBar = () => {
 
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><a>Item 3</a></li>
+        <li className="ml-4"><NavLink to="/listedBooks">Listed Books</NavLink></li>
     </>
     return (
         <div className="w-11/12 py-5 mx-auto navbar bg-base-100">
